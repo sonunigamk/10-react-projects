@@ -1,0 +1,14 @@
+# Ignore node_modules (huge folder, auto-generated)
+node_modules/
+
+# Ignore Vite's cache
+.vite/
+
+# Ignore build files (generated after running `npm run build`)
+dist/
+
+# Ignore system/macOS-related files
+.DS_Store
+
+# Ignore environment variables (API keys, etc.)
+.env
