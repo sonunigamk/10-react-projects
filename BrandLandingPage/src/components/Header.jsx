@@ -13,11 +13,11 @@ function Header() {
             <ul className='hidden md:flex items-center justify-center gap-5 font-semibold'>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Location</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>gi
                 <li><a href="#">Contact</a></li>
             </ul>
 
-            {/* Mobile Menu Toggle */}
+
             <div className="md:hidden">
                 <button onClick={() => setIsOpen(!isOpen)}>
                     <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
