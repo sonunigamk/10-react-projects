@@ -13,7 +13,7 @@ function Header() {
             <ul className='hidden md:flex items-center justify-center gap-5 font-semibold'>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Location</a></li>
-                <li><a href="#">About</a></li>gi
+                <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
 
