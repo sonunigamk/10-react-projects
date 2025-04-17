@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Button({ text, className }) {
+function Button({ text, icon, className, ...rest }) {
     return (
         <div>
-            <button className={`${className}`}>{text}</button>
+            <button
+                {...rest}
+                className={`${className}`}>{icon} {text}</button>
         </div>
     )
 }
